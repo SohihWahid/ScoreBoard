@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://googleapis.com" rel="stylesheet">
+    <link href="https://cdnfonts.com" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Caesar+Dressing&family=Redaction+50:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="Score">
+        <div>
+            <h1 class="side">Home</h1>
+            <p class="score" id="score"></p>
+            <button class="btn" onclick="one()">+1</button>
+            <button class="btn" onclick="two()">+2</button>
+            <button class="btn" onclick="three()">+3</button>
+        </div>
+        <div>
+            <h1 class="side">Guest</h1>
+            <p class="score" id="score2"></p>
+            <button class="btn" onclick="oneEl()">+1</button>
+            <button class="btn" onclick="twoEl()">+2</button>
+            <button class="btn" onclick="threeEl()">+3</button>
+        </div>
+    </div>
+    <div>
+        <button id="reset" onclick="resetEl()">Reset</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
